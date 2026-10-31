@@ -23,3 +23,14 @@
 #taiwan-save-status{margin-top:20px}
 @media(min-width:901px){header nav{gap:18px}}
 @media print{.taiwan-links{display:none}.taiwan-word{break-inside:avoid}#taiwan{break-inside:auto}}
+
+.taiwan-table-scroll{overflow-x:auto;border:1px solid #bac8b7;border-radius:6px;background:var(--paper)}
+.taiwan-table{width:100%;min-width:720px;border-collapse:collapse;text-align:left}
+.taiwan-table th,.taiwan-table td{border:1px solid #bac8b7;padding:14px 16px;vertical-align:top;line-height:1.8}
+.taiwan-table thead th{background:#dbe5d5;font-weight:600}
+.taiwan-table tbody th{font-weight:500;width:14%;white-space:nowrap}
+.taiwan-table td:nth-child(2){width:19%}
+.taiwan-table td:nth-child(3){width:29%}
+.taiwan-table td:nth-child(4){width:38%}
+.taiwan-table-scroll:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+@media print{.taiwan-table-scroll{overflow:visible}.taiwan-table{min-width:0;font-size:12px}.taiwan-table tr{break-inside:avoid}.taiwan-table th,.taiwan-table td{padding:8px}}
