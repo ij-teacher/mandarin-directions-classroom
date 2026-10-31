@@ -34,3 +34,5 @@
 .taiwan-table td:nth-child(4){width:38%}
 .taiwan-table-scroll:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
 @media print{.taiwan-table-scroll{overflow:visible}.taiwan-table{min-width:0;font-size:12px}.taiwan-table tr{break-inside:avoid}.taiwan-table th,.taiwan-table td{padding:8px}}
+
+.alta-map{max-width:860px;margin:30px auto}.alta-map figcaption{margin-top:12px}#alta-form select{width:100%;margin-top:12px;padding:10px;background:var(--paper);border:1px solid #afbeb0;border-radius:5px;color:var(--ink)}@media(min-width:901px){header nav{gap:14px}}
