@@ -7,3 +7,19 @@
 .hero{display:block}.hero>div{max-width:780px}
 
 .hero>div{max-width:none}@media(min-width:901px){.hero h1{font-size:clamp(42px,5.2vw,72px);white-space:nowrap}}
+
+/* Taiwan geography lesson */
+.taiwan-links{margin:0 0 30px;justify-content:flex-start;gap:24px;flex-wrap:wrap}
+.taiwan-links a{border-bottom:1px solid var(--line)}
+.taiwan-word{padding:20px;border:1px solid #bac8b7;border-radius:8px;background:var(--paper);min-width:0}
+.taiwan-word summary{cursor:pointer}
+.taiwan-word summary span{font-size:14px;color:var(--muted);margin-left:8px}
+.taiwan-word h4{margin:0 0 10px;font-size:18px}
+.taiwan-word p{margin:12px 0 0}
+.taiwan-word label{display:block;font-weight:500}
+.taiwan-word textarea{display:block;width:100%;resize:vertical;margin:14px 0;padding:12px;border:1px solid #afbeb0;border-radius:5px;background:white;color:var(--ink);font:inherit}
+.taiwan-word textarea:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.taiwan-source{margin-top:28px}
+#taiwan-save-status{margin-top:20px}
+@media(min-width:901px){header nav{gap:18px}}
+@media print{.taiwan-links{display:none}.taiwan-word{break-inside:avoid}#taiwan{break-inside:auto}}
