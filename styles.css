@@ -36,3 +36,12 @@
 @media print{.taiwan-table-scroll{overflow:visible}.taiwan-table{min-width:0;font-size:12px}.taiwan-table tr{break-inside:avoid}.taiwan-table th,.taiwan-table td{padding:8px}}
 
 .alta-map{max-width:860px;margin:30px auto}.alta-map figcaption{margin-top:12px}#alta-form select{width:100%;margin-top:12px;padding:10px;background:var(--paper);border:1px solid #afbeb0;border-radius:5px;color:var(--ink)}@media(min-width:901px){header nav{gap:14px}}
+
+.alta-exercise-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:32px;align-items:start}
+.alta-exercise-layout .alta-map{position:sticky;top:125px;margin:42px 0 0;width:100%}
+#alta-form .quiz-grid{grid-template-columns:1fr}
+#alta-form label{display:block}
+.alta-letters{display:flex;flex-wrap:nowrap;gap:6px;margin-top:12px}
+.alta-letters .choice{flex:1;min-width:0;padding:8px 0;text-align:center}
+@media(max-width:900px){.alta-exercise-layout{grid-template-columns:1fr;gap:16px}.alta-exercise-layout .alta-map{top:125px;z-index:5;margin:0;max-width:none;padding:8px;background:var(--paper)}.alta-exercise-layout .alta-map img{width:auto;max-width:100%;max-height:28vh;margin:auto}.alta-exercise-layout .alta-map figcaption{margin:4px 0 0}.alta-exercise-layout #alta-form{margin-top:0}#alta-form .taiwan-word{scroll-margin-top:48vh}}
+@media print{.alta-exercise-layout{display:block}.alta-exercise-layout .alta-map{position:static}.alta-letters button{display:inline-block!important}}
